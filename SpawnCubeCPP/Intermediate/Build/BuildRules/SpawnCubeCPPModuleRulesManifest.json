@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Engine\\Unreal Projects\\SpawnCubeCPP\\Source\\SpawnCubeCPP\\SpawnCubeCPP.Build.cs",
+		"D:\\Unreal Engine\\Unreal Projects\\SpawnCubeCPP\\Source\\SpawnCubeCPP.Target.cs",
+		"D:\\Unreal Engine\\Unreal Projects\\SpawnCubeCPP\\Source\\SpawnCubeCPPEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.0"
+}

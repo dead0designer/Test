@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SpawnCubeCPP-0012.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\SpawnCubeCPPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\MyCube.cpp.obj"
+"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\MyPawn.cpp.obj"
+"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\SpawnCubeCPP.cpp.obj"
+"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\SpawnCubeCPPGameModeBase.cpp.obj"
+"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\MyCube.gen.cpp.obj"
+"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\MyPawn.gen.cpp.obj"
+"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\SpawnCubeCPP.init.gen.cpp.obj"
+"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\SpawnCubeCPPGameModeBase.gen.cpp.obj"
+"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\Default.rc2.res"
+/OUT:"D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-0012.lib"
+/INCLUDE:IMPLEMENT_MODULE_SpawnCubeCPP

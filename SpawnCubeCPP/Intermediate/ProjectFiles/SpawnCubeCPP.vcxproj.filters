@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SpawnCubeCPP.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0BBC83C3-C668-463D-930A-394D4DBAD828}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpawnCubeCPP.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpawnCubeCPPEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F9B6013B-7CC3-4FBB-A946-0CBB3CE49E39}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SpawnCubeCPP">
+      <UniqueIdentifier>{2FB9A05D-BE5B-49AB-9D84-75BCA8DCD37B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpawnCubeCPP\MyCube.cpp">
+      <Filter>Source\SpawnCubeCPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpawnCubeCPP\MyCube.h">
+      <Filter>Source\SpawnCubeCPP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpawnCubeCPP\MyPawn.cpp">
+      <Filter>Source\SpawnCubeCPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpawnCubeCPP\MyPawn.h">
+      <Filter>Source\SpawnCubeCPP</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SpawnCubeCPP\SpawnCubeCPP.Build.cs">
+      <Filter>Source\SpawnCubeCPP</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SpawnCubeCPP\SpawnCubeCPP.cpp">
+      <Filter>Source\SpawnCubeCPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpawnCubeCPP\SpawnCubeCPP.h">
+      <Filter>Source\SpawnCubeCPP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpawnCubeCPP\SpawnCubeCPPGameModeBase.cpp">
+      <Filter>Source\SpawnCubeCPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpawnCubeCPP\SpawnCubeCPPGameModeBase.h">
+      <Filter>Source\SpawnCubeCPP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

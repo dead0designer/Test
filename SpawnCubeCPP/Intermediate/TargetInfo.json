@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SpawnCubeCPP",
+			"Path": "D:\\Unreal Engine\\Unreal Projects\\SpawnCubeCPP\\Source\\SpawnCubeCPP.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SpawnCubeCPPEditor",
+			"Path": "D:\\Unreal Engine\\Unreal Projects\\SpawnCubeCPP\\Source\\SpawnCubeCPPEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

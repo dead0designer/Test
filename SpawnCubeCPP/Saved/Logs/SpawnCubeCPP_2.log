@@ -1,0 +1,1528 @@
+﻿Log file open, 05/20/20 13:49:29
+LogInit: Display: Running engine for game: SpawnCubeCPP
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.159615
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Unreal Engine/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.05.20-10.49.29:505][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.05.20-10.49.29:506][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.05.20-10.49.29:507][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.05.20-10.49.29:508][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.05.20-10.49.29:509][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.49.29:510][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.20-10.49.29:510][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.20-10.49.29:511][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.20-10.49.29:511][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.20-10.49.29:511][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.20-10.49.29:511][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.20-10.49.29:511][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.20-10.49.29:511][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.20-10.49.29:511][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.20-10.49.29:511][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.20-10.49.29:511][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.49.29:511][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.49.29:517][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.20-10.49.29:518][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.20-10.49.29:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.20-10.49.29:520][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.20-10.49.29:521][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.05.20-10.49.29:522][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.05.20-10.49.29:522][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.20-10.49.29:522][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.20-10.49.29:523][  0]LogHAL: Display: Platform has ~ 16 GB [17137041408 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.20-10.49.29:523][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.20-10.49.29:523][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.20-10.49.29:523][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.20-10.49.29:524][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.20-10.49.29:525][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.20-10.49.29:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.05.20-10.49.29:527][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.20-10.49.29:528][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.20-10.49.29:528][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.20-10.49.29:528][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.05.20-10.49.29:528][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Config/Windows/Engine.ini]
+[2020.05.20-10.49.29:528][  0]LogInit: Computer: DESKTOP-G90F4LS
+[2020.05.20-10.49.29:528][  0]LogInit: User: Искандер
+[2020.05.20-10.49.29:528][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.20-10.49.29:528][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.20-10.49.29:528][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.05.20-10.49.29:528][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.20-10.49.29:528][  0]LogMemory: Process Physical Memory: 115.66 MB used, 115.66 MB peak
+[2020.05.20-10.49.29:528][  0]LogMemory: Process Virtual Memory: 96.26 MB used, 96.26 MB peak
+[2020.05.20-10.49.29:528][  0]LogMemory: Physical Memory: 9011.24 MB used,  7331.91 MB free, 16343.16 MB total
+[2020.05.20-10.49.29:528][  0]LogMemory: Virtual Memory: 5144.17 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.05.20-10.49.29:537][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.20-10.49.29:697][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.05.20-10.49.29:698][  0]LogInit: Using OS detected language (ru-RU).
+[2020.05.20-10.49.29:698][  0]LogInit: Using OS detected locale (ru-RU).
+[2020.05.20-10.49.29:701][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2020.05.20-10.49.29:701][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2020.05.20-10.49.29:702][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2020.05.20-10.49.29:702][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2020.05.20-10.49.29:702][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2020.05.20-10.49.29:702][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2020.05.20-10.49.29:702][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2020.05.20-10.49.29:702][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2020.05.20-10.49.29:703][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.20-10.49.29:745][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.20-10.49.29:745][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.20-10.49.29:856][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.20-10.49.29:856][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.20-10.49.29:857][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.20-10.49.29:857][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.20-10.49.29:937][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.05.20-10.49.29:937][  0]LogD3D11RHI:       6052/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.05.20-10.49.29:942][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.20-10.49.29:942][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.20-10.49.29:942][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.20-10.49.29:950][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.20-10.49.29:950][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.20-10.49.29:950][  0]LogWindows: EnumDisplayDevices:
+[2020.05.20-10.49.29:950][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.05.20-10.49.29:951][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.05.20-10.49.29:951][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.05.20-10.49.29:951][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.05.20-10.49.29:952][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.05.20-10.49.29:952][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.05.20-10.49.29:952][  0]LogD3D11RHI:   Driver Version: 442.19 (internal:26.21.14.4219, unified:442.19)
+[2020.05.20-10.49.29:952][  0]LogD3D11RHI:      Driver Date: 1-29-2020
+[2020.05.20-10.49.29:952][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.05.20-10.49.29:994][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.05.20-10.49.29:997][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.05.20-10.49.29:997][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.20-10.49.29:997][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.05.20-10.49.30:012][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.05.20-10.49.30:277][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.20-10.49.30:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.20-10.49.30:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.20-10.49.30:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.20-10.49.30:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.20-10.49.30:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.20-10.49.30:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.20-10.49.30:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.20-10.49.30:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.20-10.49.30:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.20-10.49.30:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.20-10.49.30:326][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.20-10.49.30:326][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.20-10.49.30:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.05.20-10.49.30:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.20-10.49.30:357][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.20-10.49.30:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.20-10.49.30:377][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.20-10.49.30:387][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.20-10.49.30:397][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.20-10.49.30:421][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.20-10.49.30:422][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.20-10.49.30:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.20-10.49.30:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.20-10.49.30:446][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.20-10.49.30:457][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.20-10.49.30:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.20-10.49.30:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.20-10.49.30:479][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.20-10.49.30:493][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.20-10.49.30:585][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../Unreal Projects/SpawnCubeCPP/Intermediate/Shaders/WorkingDirectory/5936/).
+[2020.05.20-10.49.30:585][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Искандер/AppData/Local/Temp/UnrealShaderWorkingDir/F8FCAC9A48F94B30C3937CB292A1C670/'.
+[2020.05.20-10.49.30:587][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2020.05.20-10.49.31:305][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.20-10.49.31:374][  0]LogDerivedDataCache: Loaded boot cache 0.07s 105MB C:/Users/Искандер/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.05.20-10.49.31:374][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Искандер/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.05.20-10.49.31:375][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Unreal Projects/SpawnCubeCPP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.20-10.49.31:375][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.20-10.49.31:375][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Unreal Projects/SpawnCubeCPP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.20-10.49.31:375][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.20-10.49.31:386][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.20-10.49.31:386][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.20-10.49.31:386][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.20-10.49.31:389][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Искандер/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.20-10.49.31:389][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.20-10.49.31:389][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.20-10.49.31:446][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.20-10.49.31:447][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.20-10.49.31:475][  0]LogAssetRegistry: FAssetRegistry took 0.0044 seconds to start up
+[2020.05.20-10.49.31:682][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.20-10.49.31:812][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.20-10.49.31:812][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.20-10.49.31:812][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.20-10.49.31:812][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.20-10.49.31:812][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.20-10.49.31:826][  0]LogNetVersion: SpawnCubeCPP 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4219613372)
+[2020.05.20-10.49.32:208][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002316DABE440), frame # 0
+[2020.05.20-10.49.32:208][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002316DA84180), frame # 0
+[2020.05.20-10.49.32:210][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002316DA92C00), frame # 0
+[2020.05.20-10.49.32:255][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.039690 seconds
+[2020.05.20-10.49.32:259][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.05.20-10.49.32:259][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.05.20-10.49.32:260][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.20-10.49.32:709][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.20-10.49.32:715][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.20-10.49.32:859][  0]SourceControl: Source control is disabled
+[2020.05.20-10.49.32:859][  0]SourceControl: Source control is disabled
+[2020.05.20-10.49.32:863][  0]SourceControl: Source control is disabled
+[2020.05.20-10.49.32:868][  0]SourceControl: Source control is disabled
+[2020.05.20-10.49.32:877][  0]SourceControl: Source control is disabled
+[2020.05.20-10.49.33:215][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.20-10.49.33:244][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.20-10.49.33:244][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.20-10.49.33:302][  0]LogOcInput: OculusInput pre-init called
+[2020.05.20-10.49.33:313][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.20-10.49.33:314][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.20-10.49.33:384][  0]LogEngine: Initializing Engine...
+[2020.05.20-10.49.33:386][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.20-10.49.33:386][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.05.20-10.49.33:387][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.20-10.49.33:499][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.20-10.49.33:508][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.20-10.49.33:508][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002317299BC00), frame # 0
+[2020.05.20-10.49.33:508][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000231729EA5C0), frame # 0
+[2020.05.20-10.49.33:526][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-10.49.33:526][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-10.49.33:527][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-10.49.33:527][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-10.49.33:527][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-10.49.33:527][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-10.49.33:527][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-10.49.33:527][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-10.49.33:528][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-10.49.33:528][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-10.49.33:543][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-10.49.33:543][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-10.49.33:594][  0]LogAudioMixer: Display: Using Audio Device Динамики (USB Audio Device)
+[2020.05.20-10.49.33:598][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.20-10.49.33:600][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.20-10.49.33:600][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.20-10.49.33:601][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.20-10.49.33:603][  0]LogInit: FAudioDevice initialized.
+[2020.05.20-10.49.33:604][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.20-10.49.33:716][  0]LogDerivedDataCache: Saved boot cache 0.11s 105MB C:/Users/Искандер/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.05.20-10.49.33:726][  0]LogInit: Texture streaming: Enabled
+[2020.05.20-10.49.33:753][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.20-10.49.33:753][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.20-10.49.33:755][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.20-10.49.33:806][  0]LogInit: Transaction tracking system initialized
+[2020.05.20-10.49.33:838][  0]BlueprintLog: New page: Editor Load
+[2020.05.20-10.49.33:927][  0]LocalizationService: Localization service is disabled
+[2020.05.20-10.49.34:099][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.20-10.49.34:099][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Content/' took 0.00s
+[2020.05.20-10.49.34:099][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.20-10.49.34:456][  0]SourceControl: Source control is disabled
+[2020.05.20-10.49.34:456][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.169
+[2020.05.20-10.49.34:456][  0]Cmd: MAP LOAD FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.20-10.49.34:456][  0]LogEditorServer: Warning: Can't find file '../../../../Unreal Projects/SpawnCubeCPP/Content/Main.umap'
+[2020.05.20-10.49.34:456][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.20-10.49.34:457][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,099ms to complete.
+[2020.05.20-10.49.34:457][  0]LogFileHelpers: Loading map 'Main' took 0.001
+[2020.05.20-10.49.34:458][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.172
+[2020.05.20-10.49.34:604][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.49.34:611][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.49.34:619][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.49.34:626][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.49.34:633][  0]LogCollectionManager: Loaded 0 collections in 0.000616 seconds
+[2020.05.20-10.49.34:651][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Saved/Collections/' took 0.00s
+[2020.05.20-10.49.34:651][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Content/Developers/Искандер/Collections/' took 0.00s
+[2020.05.20-10.49.34:651][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/Content/Collections/' took 0.00s
+[2020.05.20-10.49.34:652][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 3429 classes and 822 folders.
+[2020.05.20-10.49.34:654][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.05.20-10.49.34:688][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.05.20-10.49.34:689][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.05.20-10.49.34:731][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.20-10.49.34:734][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.20-10.49.34:739][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.20-10.49.34:795][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2020.05.20-10.49.34:830][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.20-10.49.34:870][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.05.20-10.49.34:871][  0]LogLoad: (Engine Initialization) Total time: 6.58 seconds
+[2020.05.20-10.49.34:871][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.20-10.49.34:941][  0]LogAssetRegistry: Asset discovery search completed in 3.4685 seconds
+[2020.05.20-10.49.34:945][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.05.20-10.49.34:947][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.20-10.49.36:320][146]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.20-10.49.36:396][146]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SpawnCubeCPP.SpawnCubeCPP
+[2020.05.20-10.49.36:405][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.05.20-10.49.36:407][146]Cmd: MAP LOAD FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.20-10.49.36:407][146]LightingResults: New page: Lighting Build
+[2020.05.20-10.49.36:408][146]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 6 classes and 0 folders.
+[2020.05.20-10.49.36:408][146]LoadErrors: New page: Loading map: SpawnCubeCPP.umap
+[2020.05.20-10.49.36:409][146]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.49.36:409][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.49.36:409][146]MapCheck: New page: Map Check
+[2020.05.20-10.49.36:409][146]LightingResults: New page: Lighting Build
+[2020.05.20-10.49.36:416][146]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002317299BC00), frame # 146
+[2020.05.20-10.49.36:416][146]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000231729EA5C0), frame # 146
+[2020.05.20-10.49.36:417][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.05.20-10.49.36:419][146]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.20-10.49.36:420][146]LogAIModule: Creating AISystem for world SpawnCubeCPP
+[2020.05.20-10.49.36:420][146]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023172A10A00), frame # 146
+[2020.05.20-10.49.36:420][146]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023113363100), frame # 146
+[2020.05.20-10.49.36:429][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.05.20-10.49.36:453][146]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.20-10.49.36:453][146]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,079ms to complete.
+[2020.05.20-10.49.36:453][146]LogFileHelpers: Loading map 'SpawnCubeCPP' took 0.047
+[2020.05.20-10.49.37:567][271]Candidate modules for hot reload:
+[2020.05.20-10.49.37:568][271]  SpawnCubeCPP
+[2020.05.20-10.49.37:568][271]Launching UnrealBuildTool... [D:/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpawnCubeCPP,2543 SpawnCubeCPPEditor Win64 Development -Project="D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject" "D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject"  -IgnoreJunk]
+[2020.05.20-10.49.37:570][271]Warning: Starting HotReload took  0.0s.
+[2020.05.20-10.49.39:479][451]CompilerResultsLog: New page: Compilation - 20 мая 2020 г., 16:49:39
+[2020.05.20-10.49.39:479][451]CompilerResultsLog: Building SpawnCubeCPPEditor...
+[2020.05.20-10.49.39:480][451]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-10.49.39:480][451]CompilerResultsLog: Distributing 3 actions to XGE
+[2020.05.20-10.49.39:480][451]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.05.20-10.49.39:480][451]CompilerResultsLog: License is invalid:
+[2020.05.20-10.49.39:480][451]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.05.20-10.49.39:480][451]CompilerResultsLog:     This build will run in standalone mode.
+[2020.05.20-10.49.39:480][451]CompilerResultsLog: 
+[2020.05.20-10.49.39:480][451]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.05.20-10.49.39:480][451]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.05.20-10.49.39:480][451]CompilerResultsLog: UE4Editor-SpawnCubeCPP-2543.dll (0:00.71 at +0:00)
+[2020.05.20-10.49.39:480][451]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-2543.suppressed.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-2543.suppressed.exp
+[2020.05.20-10.49.39:480][451]CompilerResultsLog: UE4Editor-SpawnCubeCPP-2543.lib (0:00.14 at +0:00)
+[2020.05.20-10.49.39:480][451]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-2543.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-2543.exp
+[2020.05.20-10.49.39:481][451]CompilerResultsLog: SpawnCubeCPPEditor.target (0:00.18 at +0:00)
+[2020.05.20-10.49.39:481][451]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.05.20-10.49.39:481][451]CompilerResultsLog: 
+[2020.05.20-10.49.39:481][451]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.05.20-10.49.39:481][451]CompilerResultsLog: 
+[2020.05.20-10.49.39:481][451]CompilerResultsLog: 1 build system warning(s):
+[2020.05.20-10.49.39:481][451]CompilerResultsLog:    - License is invalid
+[2020.05.20-10.49.39:481][451]CompilerResultsLog: 
+[2020.05.20-10.49.39:481][451]CompilerResultsLog: Total time in XGE executor: 1,20 seconds
+[2020.05.20-10.49.39:481][451]CompilerResultsLog: Total execution time: 1,81 seconds
+[2020.05.20-10.49.39:481][451]LogMainFrame: MainFrame: Module compiling took 1.917 seconds
+[2020.05.20-10.49.39:517][451]LogContentBrowser: Native class hierarchy updated for 'SpawnCubeCPP' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.20-10.49.39:518][451]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.05.20-10.49.39:555][451]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3429 classes and 822 folders.
+[2020.05.20-10.49.39:559][451]Display: HotReload took  2.0s.
+[2020.05.20-10.49.40:411][546]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.20-10.49.40:426][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.20-10.49.40:426][546]PIE: New page: PIE session: SpawnCubeCPP (20 мая 2020 г., 16:49:40)
+[2020.05.20-10.49.40:428][546]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.20-10.49.40:430][546]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.20-10.49.40:430][546]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpawnCubeCPP
+[2020.05.20-10.49.40:432][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001814s)
+[2020.05.20-10.49.40:433][546]LogAIModule: Creating AISystem for world SpawnCubeCPP
+[2020.05.20-10.49.40:433][546]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023112C9BE00), frame # 546
+[2020.05.20-10.49.40:434][546]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000231304BF380), frame # 546
+[2020.05.20-10.49.40:434][546]LogPlayLevel: PIE: World Init took: (0.001514s)
+[2020.05.20-10.49.40:434][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpawnCubeCPP.SpawnCubeCPP to /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP (0.003655s)
+[2020.05.20-10.49.40:445][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.05.20-10.49.40:447][546]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-10.49.40:447][546]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-10.49.40:447][546]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-10.49.40:447][546]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-10.49.40:447][546]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-10.49.40:447][546]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-10.49.40:447][546]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-10.49.40:447][546]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-10.49.40:448][546]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-10.49.40:448][546]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-10.49.40:451][546]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-10.49.40:451][546]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-10.49.40:476][546]LogAudioMixer: Display: Using Audio Device Динамики (USB Audio Device)
+[2020.05.20-10.49.40:476][546]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.20-10.49.40:476][546]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.20-10.49.40:476][546]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.20-10.49.40:477][546]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.20-10.49.40:490][546]LogInit: FAudioDevice initialized.
+[2020.05.20-10.49.40:505][546]LogLoad: Game class is 'MyGameMode_C'
+[2020.05.20-10.49.40:507][546]LogWorld: Bringing World /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP up for play (max tick rate 0) at 2020.05.20-13.49.40
+[2020.05.20-10.49.40:507][546]LogWorld: Bringing up level for play took: 0.000681
+[2020.05.20-10.49.40:507][546]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.05.20-10.49.40:523][546]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.05.20-10.49.40:524][546]PIE: Server logged in
+[2020.05.20-10.49.40:526][546]PIE: Play in editor total start time 0,103 seconds.
+[2020.05.20-10.49.57:078][529]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.49.57:083][529]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.20-10.49.57:104][529]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.20-10.49.57:104][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.49.57:104][529]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SpawnCubeCPP
+[2020.05.20-10.49.57:105][529]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.49.57:105][529]LogWorld: UWorld::CleanupWorld for SpawnCubeCPP, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.49.57:105][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.49.57:118][529]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.20-10.49.57:119][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.49.57:126][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.49.57:127][529]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.49.57:157][529]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000231304BF380), frame # 2529
+[2020.05.20-10.49.57:157][529]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023112C9BE00), frame # 2529
+[2020.05.20-10.49.57:158][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.05.20-10.49.57:181][530]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.05.20-10.49.58:072][624]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_MyPawn.BP_MyPawn
+[2020.05.20-10.49.58:489][624]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.05.20-10.49.59:295][624]LogActor: Warning: BP_MyCube_C /Engine/Transient.World_2:PersistentLevel.BP_MyCube_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.50.03:269][ 73]BlueprintLog: New page: Compile BP_MyPawn
+[2020.05.20-10.50.03:301][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.05.20-10.50.03:772][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyPawn" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/BP_MyPawn.uasset" SILENT=true
+[2020.05.20-10.50.03:786][125]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/BP_MyPawn728960234F043750392F7E8278924E6E.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/BP_MyPawn.uasset'
+[2020.05.20-10.50.03:801][125]AssetCheck: New page: Asset Save: BP_MyPawn
+[2020.05.20-10.50.03:801][125]LogContentValidation: Display: Validating Blueprint /Game/BP_MyPawn.BP_MyPawn
+[2020.05.20-10.50.05:616][319]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.20-10.50.05:628][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.20-10.50.05:629][319]PIE: New page: PIE session: SpawnCubeCPP (20 мая 2020 г., 16:50:05)
+[2020.05.20-10.50.05:629][319]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpawnCubeCPP
+[2020.05.20-10.50.05:631][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001884s)
+[2020.05.20-10.50.05:632][319]LogAIModule: Creating AISystem for world SpawnCubeCPP
+[2020.05.20-10.50.05:632][319]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002311CF43C00), frame # 3319
+[2020.05.20-10.50.05:633][319]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002311CF60A40), frame # 3319
+[2020.05.20-10.50.05:633][319]LogPlayLevel: PIE: World Init took: (0.001806s)
+[2020.05.20-10.50.05:633][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpawnCubeCPP.SpawnCubeCPP to /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP (0.004102s)
+[2020.05.20-10.50.05:649][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.05.20-10.50.05:651][319]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-10.50.05:651][319]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-10.50.05:651][319]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-10.50.05:651][319]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-10.50.05:652][319]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-10.50.05:652][319]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-10.50.05:652][319]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-10.50.05:652][319]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-10.50.05:653][319]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-10.50.05:653][319]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-10.50.05:656][319]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-10.50.05:656][319]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-10.50.05:682][319]LogAudioMixer: Display: Using Audio Device Динамики (USB Audio Device)
+[2020.05.20-10.50.05:682][319]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.20-10.50.05:682][319]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.20-10.50.05:682][319]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.20-10.50.05:683][319]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.20-10.50.05:696][319]LogInit: FAudioDevice initialized.
+[2020.05.20-10.50.05:710][319]LogLoad: Game class is 'MyGameMode_C'
+[2020.05.20-10.50.05:711][319]LogWorld: Bringing World /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP up for play (max tick rate 0) at 2020.05.20-13.50.05
+[2020.05.20-10.50.05:711][319]LogWorld: Bringing up level for play took: 0.000594
+[2020.05.20-10.50.05:711][319]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.05.20-10.50.05:714][319]PIE: Server logged in
+[2020.05.20-10.50.05:715][319]PIE: Play in editor total start time 0,087 seconds.
+[2020.05.20-10.50.09:877][816]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.50.09:884][816]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.20-10.50.09:904][816]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.20-10.50.09:905][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.50.09:905][816]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SpawnCubeCPP
+[2020.05.20-10.50.09:905][816]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.50.09:905][816]LogWorld: UWorld::CleanupWorld for SpawnCubeCPP, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.50.09:906][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.50.09:914][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.20-10.50.09:916][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.50.09:932][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.50.09:932][816]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.50.09:962][816]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002311CF60A40), frame # 3816
+[2020.05.20-10.50.09:962][816]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002311CF43C00), frame # 3816
+[2020.05.20-10.50.09:964][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.05.20-10.50.09:987][817]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.05.20-10.50.15:306][434]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.20-10.50.17:293][667]BlueprintLog: New page: Compile BP_MyPawn
+[2020.05.20-10.50.17:322][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.05.20-10.50.17:804][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_MyPawn" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/BP_MyPawn.uasset" SILENT=true
+[2020.05.20-10.50.17:812][718]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/BP_MyPawnEB60FB164D1C71229CCB8387BCD2B0B4.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/BP_MyPawn.uasset'
+[2020.05.20-10.50.17:824][718]AssetCheck: New page: Asset Save: BP_MyPawn
+[2020.05.20-10.50.17:824][718]LogContentValidation: Display: Validating Blueprint /Game/BP_MyPawn.BP_MyPawn
+[2020.05.20-10.50.21:398][136]LogSlate: Window 'BP_MyPawn' being destroyed
+[2020.05.20-10.50.21:402][136]LogSlate: Window 'BP_MyPawn' being destroyed
+[2020.05.20-10.50.21:402][136]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.50.21:402][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.53.09:746][259]LogHotReload: New module detected: UE4Editor-SpawnCubeCPP-6859.dll
+[2020.05.20-10.53.10:766][263]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.20-10.53.10:809][263]LogContentBrowser: Native class hierarchy updated for 'SpawnCubeCPP' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.20-10.53.10:812][263]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.05.20-10.53.10:870][263]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3429 classes and 822 folders.
+[2020.05.20-10.53.10:881][263]Display: HotReload took  0.1s.
+[2020.05.20-10.57.49:631][337]Candidate modules for hot reload:
+[2020.05.20-10.57.49:631][337]  SpawnCubeCPP
+[2020.05.20-10.57.49:631][337]Launching UnrealBuildTool... [D:/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpawnCubeCPP,6040 SpawnCubeCPPEditor Win64 Development -Project="D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject" "D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject"  -IgnoreJunk]
+[2020.05.20-10.57.49:633][337]Warning: Starting HotReload took  0.0s.
+[2020.05.20-10.57.51:613][530]CompilerResultsLog: New page: Compilation - 20 мая 2020 г., 16:57:51
+[2020.05.20-10.57.51:614][530]CompilerResultsLog: Building SpawnCubeCPPEditor...
+[2020.05.20-10.57.51:614][530]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-10.57.51:614][530]CompilerResultsLog: Distributing 3 actions to XGE
+[2020.05.20-10.57.51:614][530]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.05.20-10.57.51:614][530]CompilerResultsLog: License is invalid:
+[2020.05.20-10.57.51:614][530]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.05.20-10.57.51:614][530]CompilerResultsLog:     This build will run in standalone mode.
+[2020.05.20-10.57.51:614][530]CompilerResultsLog: 
+[2020.05.20-10.57.51:614][530]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.05.20-10.57.51:614][530]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.05.20-10.57.51:615][530]CompilerResultsLog: UE4Editor-SpawnCubeCPP-6040.dll (0:00.76 at +0:00)
+[2020.05.20-10.57.51:615][530]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-6040.suppressed.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-6040.suppressed.exp
+[2020.05.20-10.57.51:615][530]CompilerResultsLog: UE4Editor-SpawnCubeCPP-6040.lib (0:00.14 at +0:00)
+[2020.05.20-10.57.51:615][530]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-6040.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-6040.exp
+[2020.05.20-10.57.51:615][530]CompilerResultsLog: SpawnCubeCPPEditor.target (0:00.18 at +0:00)
+[2020.05.20-10.57.51:615][530]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.05.20-10.57.51:615][530]CompilerResultsLog: 
+[2020.05.20-10.57.51:615][530]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.05.20-10.57.51:615][530]CompilerResultsLog: 
+[2020.05.20-10.57.51:615][530]CompilerResultsLog: 1 build system warning(s):
+[2020.05.20-10.57.51:615][530]CompilerResultsLog:    - License is invalid
+[2020.05.20-10.57.51:616][530]CompilerResultsLog: 
+[2020.05.20-10.57.51:616][530]CompilerResultsLog: Total time in XGE executor: 1,32 seconds
+[2020.05.20-10.57.51:616][530]CompilerResultsLog: Total execution time: 1,89 seconds
+[2020.05.20-10.57.51:616][530]LogMainFrame: MainFrame: Module compiling took 1.988 seconds
+[2020.05.20-10.57.51:655][530]LogContentBrowser: Native class hierarchy updated for 'SpawnCubeCPP' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.20-10.57.51:659][530]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.05.20-10.57.51:738][530]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3429 classes and 822 folders.
+[2020.05.20-10.57.51:745][530]Display: HotReload took  2.1s.
+[2020.05.20-10.57.53:782][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpawnCubeCPP" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.20-10.57.53:871][728]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.05.20-10.57.53:885][728]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/SpawnCubeCPPE21921824DBBD55CAB463E8A1A413F8C.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP.umap'
+[2020.05.20-10.57.53:909][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpawnCubeCPP_BuiltData" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP_BuiltData.uasset" SILENT=true
+[2020.05.20-10.57.53:918][728]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/SpawnCubeCPP_BuiltData4706E7374872A56E26BF1EBC4F1E3CA8.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP_BuiltData.uasset'
+[2020.05.20-10.57.53:935][728]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-10.57.53:936][728]LogContentValidation: Display: Validating World /Game/SpawnCubeCPP.SpawnCubeCPP
+[2020.05.20-10.57.53:936][728]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SpawnCubeCPP_BuiltData.SpawnCubeCPP_BuiltData
+[2020.05.20-10.57.57:361][118]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SpawnCubeCPP.SpawnCubeCPP
+[2020.05.20-10.57.57:416][118]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.05.20-10.57.57:418][118]Cmd: MAP LOAD FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.20-10.57.57:418][118]LightingResults: New page: Lighting Build
+[2020.05.20-10.57.57:418][118]LoadErrors: New page: Loading map: SpawnCubeCPP.umap
+[2020.05.20-10.57.57:419][118]LogWorld: UWorld::CleanupWorld for SpawnCubeCPP, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.57.57:419][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.57.57:419][118]MapCheck: New page: Map Check
+[2020.05.20-10.57.57:420][118]LightingResults: New page: Lighting Build
+[2020.05.20-10.57.57:431][118]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023113363100), frame # 8118
+[2020.05.20-10.57.57:431][118]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023172A10A00), frame # 8118
+[2020.05.20-10.57.57:433][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2020.05.20-10.57.57:439][118]LogAIModule: Creating AISystem for world SpawnCubeCPP
+[2020.05.20-10.57.57:439][118]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023113269E00), frame # 8118
+[2020.05.20-10.57.57:439][118]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023113438F40), frame # 8118
+[2020.05.20-10.57.57:442][118]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.20-10.57.57:456][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.05.20-10.57.57:478][118]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.20-10.57.57:478][118]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,074ms to complete.
+[2020.05.20-10.57.57:478][118]LogFileHelpers: Loading map 'SpawnCubeCPP' took 0.060
+[2020.05.20-10.58.01:259][559]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.20-10.58.01:274][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.20-10.58.01:275][559]PIE: New page: PIE session: SpawnCubeCPP (20 мая 2020 г., 16:58:01)
+[2020.05.20-10.58.01:275][559]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpawnCubeCPP
+[2020.05.20-10.58.01:277][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001895s)
+[2020.05.20-10.58.01:280][559]LogAIModule: Creating AISystem for world SpawnCubeCPP
+[2020.05.20-10.58.01:280][559]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000231871F7E00), frame # 8559
+[2020.05.20-10.58.01:280][559]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002319073BD80), frame # 8559
+[2020.05.20-10.58.01:281][559]LogPlayLevel: PIE: World Init took: (0.003345s)
+[2020.05.20-10.58.01:281][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpawnCubeCPP.SpawnCubeCPP to /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP (0.005744s)
+[2020.05.20-10.58.01:294][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.05.20-10.58.01:297][559]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-10.58.01:297][559]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-10.58.01:297][559]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-10.58.01:297][559]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-10.58.01:297][559]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-10.58.01:297][559]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-10.58.01:297][559]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-10.58.01:298][559]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-10.58.01:298][559]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-10.58.01:298][559]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-10.58.01:301][559]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-10.58.01:301][559]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-10.58.01:329][559]LogAudioMixer: Display: Using Audio Device Динамики (USB Audio Device)
+[2020.05.20-10.58.01:330][559]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.20-10.58.01:330][559]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.20-10.58.01:330][559]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.20-10.58.01:330][559]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.20-10.58.01:343][559]LogInit: FAudioDevice initialized.
+[2020.05.20-10.58.01:354][559]LogLoad: Game class is 'MyGameMode_C'
+[2020.05.20-10.58.01:355][559]LogWorld: Bringing World /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP up for play (max tick rate 0) at 2020.05.20-13.58.01
+[2020.05.20-10.58.01:355][559]LogWorld: Bringing up level for play took: 0.000591
+[2020.05.20-10.58.01:355][559]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.05.20-10.58.01:358][559]PIE: Server logged in
+[2020.05.20-10.58.01:359][559]PIE: Play in editor total start time 0,088 seconds.
+[2020.05.20-10.58.06:127][129]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.58.06:133][129]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.20-10.58.06:163][129]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.20-10.58.06:164][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.58.06:164][129]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SpawnCubeCPP
+[2020.05.20-10.58.06:165][129]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.58.06:165][129]LogWorld: UWorld::CleanupWorld for SpawnCubeCPP, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.58.06:165][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.58.06:176][129]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.20-10.58.06:178][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.58.06:191][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.58.06:191][129]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.58.06:221][129]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002319073BD80), frame # 9129
+[2020.05.20-10.58.06:221][129]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000231871F7E00), frame # 9129
+[2020.05.20-10.58.06:222][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.05.20-10.58.06:246][130]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.05.20-10.58.08:134][342]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Main.Main
+[2020.05.20-10.58.08:148][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.05.20-10.58.08:149][342]Cmd: MAP LOAD FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.20-10.58.08:149][342]LightingResults: New page: Lighting Build
+[2020.05.20-10.58.08:149][342]LoadErrors: New page: Loading map: Main.umap
+[2020.05.20-10.58.08:150][342]LogWorld: UWorld::CleanupWorld for SpawnCubeCPP, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.58.08:150][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.58.08:150][342]MapCheck: New page: Map Check
+[2020.05.20-10.58.08:150][342]LightingResults: New page: Lighting Build
+[2020.05.20-10.58.08:162][342]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023113438F40), frame # 9342
+[2020.05.20-10.58.08:162][342]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023113269E00), frame # 9342
+[2020.05.20-10.58.08:164][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.05.20-10.58.08:166][342]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.20-10.58.08:166][342]LogAIModule: Creating AISystem for world Main
+[2020.05.20-10.58.08:166][342]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023113269800), frame # 9342
+[2020.05.20-10.58.08:166][342]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023158B3BB00), frame # 9342
+[2020.05.20-10.58.08:182][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.05.20-10.58.08:205][342]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.20-10.58.08:205][342]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,075ms to complete.
+[2020.05.20-10.58.08:205][342]LogFileHelpers: Loading map 'Main' took 0.056
+[2020.05.20-10.58.10:468][606]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2020.05.20-10.58.10:894][654]Cmd: DELETE
+[2020.05.20-10.58.10:894][654]Cmd: ACTOR DELETE
+[2020.05.20-10.58.10:897][654]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2020.05.20-10.58.10:910][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2020.05.20-10.58.10:912][654]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2020.05.20-10.58.11:910][770]Candidate modules for hot reload:
+[2020.05.20-10.58.11:910][770]  SpawnCubeCPP
+[2020.05.20-10.58.11:910][770]Launching UnrealBuildTool... [D:/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpawnCubeCPP,1970 SpawnCubeCPPEditor Win64 Development -Project="D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject" "D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject"  -IgnoreJunk]
+[2020.05.20-10.58.11:911][770]Warning: Starting HotReload took  0.0s.
+[2020.05.20-10.58.13:768][948]CompilerResultsLog: New page: Compilation - 20 мая 2020 г., 16:58:13
+[2020.05.20-10.58.13:768][948]CompilerResultsLog: Building SpawnCubeCPPEditor...
+[2020.05.20-10.58.13:768][948]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-10.58.13:768][948]CompilerResultsLog: Distributing 3 actions to XGE
+[2020.05.20-10.58.13:768][948]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.05.20-10.58.13:768][948]CompilerResultsLog: License is invalid:
+[2020.05.20-10.58.13:769][948]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.05.20-10.58.13:769][948]CompilerResultsLog:     This build will run in standalone mode.
+[2020.05.20-10.58.13:769][948]CompilerResultsLog: 
+[2020.05.20-10.58.13:769][948]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.05.20-10.58.13:769][948]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.05.20-10.58.13:769][948]CompilerResultsLog: UE4Editor-SpawnCubeCPP-1970.dll (0:00.75 at +0:00)
+[2020.05.20-10.58.13:769][948]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-1970.suppressed.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-1970.suppressed.exp
+[2020.05.20-10.58.13:769][948]CompilerResultsLog: UE4Editor-SpawnCubeCPP-1970.lib (0:00.14 at +0:00)
+[2020.05.20-10.58.13:769][948]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-1970.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-1970.exp
+[2020.05.20-10.58.13:769][948]CompilerResultsLog: SpawnCubeCPPEditor.target (0:00.18 at +0:00)
+[2020.05.20-10.58.13:769][948]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.05.20-10.58.13:769][948]CompilerResultsLog: 
+[2020.05.20-10.58.13:769][948]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.05.20-10.58.13:770][948]CompilerResultsLog: 
+[2020.05.20-10.58.13:770][948]CompilerResultsLog: 1 build system warning(s):
+[2020.05.20-10.58.13:770][948]CompilerResultsLog:    - License is invalid
+[2020.05.20-10.58.13:770][948]CompilerResultsLog: 
+[2020.05.20-10.58.13:770][948]CompilerResultsLog: Total time in XGE executor: 1,22 seconds
+[2020.05.20-10.58.13:770][948]CompilerResultsLog: Total execution time: 1,77 seconds
+[2020.05.20-10.58.13:770][948]LogMainFrame: MainFrame: Module compiling took 1.865 seconds
+[2020.05.20-10.58.13:805][948]LogContentBrowser: Native class hierarchy updated for 'SpawnCubeCPP' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.20-10.58.13:807][948]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.05.20-10.58.13:860][948]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3429 classes and 822 folders.
+[2020.05.20-10.58.13:867][948]Display: HotReload took  2.0s.
+[2020.05.20-10.58.17:593][353]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.20-10.58.17:609][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.20-10.58.17:609][353]PIE: New page: PIE session: Main (20 мая 2020 г., 16:58:17)
+[2020.05.20-10.58.17:610][353]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2020.05.20-10.58.17:612][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001852s)
+[2020.05.20-10.58.17:613][353]LogAIModule: Creating AISystem for world Main
+[2020.05.20-10.58.17:613][353]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002319081FE00), frame # 10353
+[2020.05.20-10.58.17:613][353]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023190827D80), frame # 10353
+[2020.05.20-10.58.17:614][353]LogPlayLevel: PIE: World Init took: (0.001830s)
+[2020.05.20-10.58.17:614][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.004191s)
+[2020.05.20-10.58.17:661][353]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.05.20-10.58.17:664][353]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-10.58.17:664][353]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-10.58.17:664][353]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-10.58.17:664][353]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-10.58.17:664][353]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-10.58.17:664][353]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-10.58.17:664][353]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-10.58.17:664][353]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-10.58.17:665][353]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-10.58.17:665][353]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-10.58.17:668][353]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-10.58.17:668][353]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-10.58.17:694][353]LogAudioMixer: Display: Using Audio Device Динамики (USB Audio Device)
+[2020.05.20-10.58.17:694][353]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.20-10.58.17:694][353]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.20-10.58.17:694][353]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.20-10.58.17:695][353]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.20-10.58.17:708][353]LogInit: FAudioDevice initialized.
+[2020.05.20-10.58.17:721][353]LogLoad: Game class is 'MyGameMode_C'
+[2020.05.20-10.58.17:722][353]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.05.20-13.58.17
+[2020.05.20-10.58.17:723][353]LogWorld: Bringing up level for play took: 0.000653
+[2020.05.20-10.58.17:723][353]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.05.20-10.58.17:726][353]PIE: Server logged in
+[2020.05.20-10.58.17:727][353]PIE: Play in editor total start time 0,121 seconds.
+[2020.05.20-10.58.19:744][593]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.58.19:753][593]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.20-10.58.19:773][593]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.20-10.58.19:774][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.58.19:774][593]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2020.05.20-10.58.19:775][593]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.58.19:775][593]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.58.19:775][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.58.19:809][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.20-10.58.19:814][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.58.19:833][593]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.58.19:867][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.58.19:873][593]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023190827D80), frame # 10593
+[2020.05.20-10.58.19:873][593]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002319081FE00), frame # 10593
+[2020.05.20-10.58.19:887][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.05.20-10.58.19:910][594]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.05.20-10.58.21:635][790]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SpawnCubeCPP.SpawnCubeCPP
+[2020.05.20-10.58.21:648][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2020.05.20-10.58.22:988][790]LogSlate: Window 'Save Content' being destroyed
+[2020.05.20-10.58.29:664][487]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.20-10.58.33:933][922]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.20-10.58.33:938][922]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.20-10.58.35:441][ 89]Candidate modules for hot reload:
+[2020.05.20-10.58.35:441][ 89]  SpawnCubeCPP
+[2020.05.20-10.58.35:442][ 89]Launching UnrealBuildTool... [D:/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpawnCubeCPP,3258 SpawnCubeCPPEditor Win64 Development -Project="D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject" "D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject"  -IgnoreJunk]
+[2020.05.20-10.58.35:444][ 89]Warning: Starting HotReload took  0.0s.
+[2020.05.20-10.58.37:394][269]CompilerResultsLog: New page: Compilation - 20 мая 2020 г., 16:58:37
+[2020.05.20-10.58.37:395][269]CompilerResultsLog: Building SpawnCubeCPPEditor...
+[2020.05.20-10.58.37:395][269]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-10.58.37:395][269]CompilerResultsLog: Distributing 3 actions to XGE
+[2020.05.20-10.58.37:395][269]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.05.20-10.58.37:395][269]CompilerResultsLog: License is invalid:
+[2020.05.20-10.58.37:395][269]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.05.20-10.58.37:395][269]CompilerResultsLog:     This build will run in standalone mode.
+[2020.05.20-10.58.37:395][269]CompilerResultsLog: 
+[2020.05.20-10.58.37:395][269]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.05.20-10.58.37:395][269]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.05.20-10.58.37:396][269]CompilerResultsLog: UE4Editor-SpawnCubeCPP-3258.dll (0:00.78 at +0:00)
+[2020.05.20-10.58.37:396][269]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-3258.suppressed.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-3258.suppressed.exp
+[2020.05.20-10.58.37:396][269]CompilerResultsLog: UE4Editor-SpawnCubeCPP-3258.lib (0:00.15 at +0:00)
+[2020.05.20-10.58.37:396][269]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-3258.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-3258.exp
+[2020.05.20-10.58.37:396][269]CompilerResultsLog: SpawnCubeCPPEditor.target (0:00.18 at +0:00)
+[2020.05.20-10.58.37:396][269]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.05.20-10.58.37:396][269]CompilerResultsLog: 
+[2020.05.20-10.58.37:396][269]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.05.20-10.58.37:396][269]CompilerResultsLog: 
+[2020.05.20-10.58.37:396][269]CompilerResultsLog: 1 build system warning(s):
+[2020.05.20-10.58.37:396][269]CompilerResultsLog:    - License is invalid
+[2020.05.20-10.58.37:396][269]CompilerResultsLog: 
+[2020.05.20-10.58.37:396][269]CompilerResultsLog: Total time in XGE executor: 1,30 seconds
+[2020.05.20-10.58.37:397][269]CompilerResultsLog: Total execution time: 1,86 seconds
+[2020.05.20-10.58.37:397][269]LogMainFrame: MainFrame: Module compiling took 1.959 seconds
+[2020.05.20-10.58.37:437][269]LogContentBrowser: Native class hierarchy updated for 'SpawnCubeCPP' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.20-10.58.37:441][269]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.05.20-10.58.37:529][269]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 3429 classes and 822 folders.
+[2020.05.20-10.58.37:537][269]Display: HotReload took  2.1s.
+[2020.05.20-10.58.39:269][437]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.20-10.58.39:285][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.20-10.58.39:285][437]PIE: New page: PIE session: Main (20 мая 2020 г., 16:58:39)
+[2020.05.20-10.58.39:286][437]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Main
+[2020.05.20-10.58.39:288][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001844s)
+[2020.05.20-10.58.39:289][437]LogAIModule: Creating AISystem for world Main
+[2020.05.20-10.58.39:289][437]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023183E1BE00), frame # 12437
+[2020.05.20-10.58.39:289][437]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023183E17B00), frame # 12437
+[2020.05.20-10.58.39:290][437]LogPlayLevel: PIE: World Init took: (0.001905s)
+[2020.05.20-10.58.39:290][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Main.Main to /Game/UEDPIE_0_Main.Main (0.004213s)
+[2020.05.20-10.58.39:369][437]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.05.20-10.58.39:371][437]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-10.58.39:371][437]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-10.58.39:371][437]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-10.58.39:372][437]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-10.58.39:372][437]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-10.58.39:372][437]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-10.58.39:372][437]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-10.58.39:372][437]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-10.58.39:373][437]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-10.58.39:373][437]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-10.58.39:376][437]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-10.58.39:377][437]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-10.58.39:404][437]LogAudioMixer: Display: Using Audio Device Динамики (USB Audio Device)
+[2020.05.20-10.58.39:404][437]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.20-10.58.39:404][437]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.20-10.58.39:404][437]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.20-10.58.39:405][437]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.20-10.58.39:418][437]LogInit: FAudioDevice initialized.
+[2020.05.20-10.58.39:434][437]LogLoad: Game class is 'MyGameMode_C'
+[2020.05.20-10.58.39:435][437]LogWorld: Bringing World /Game/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2020.05.20-13.58.39
+[2020.05.20-10.58.39:435][437]LogWorld: Bringing up level for play took: 0.000619
+[2020.05.20-10.58.39:435][437]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.05.20-10.58.39:438][437]PIE: Server logged in
+[2020.05.20-10.58.39:439][437]PIE: Play in editor total start time 0,157 seconds.
+[2020.05.20-10.58.39:539][447]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_Main.Main:PersistentLevel.BP_MyCube_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.58.39:821][481]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_Main.Main:PersistentLevel.BP_MyCube_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.58.39:846][484]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_Main.Main:PersistentLevel.BP_MyCube_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.58.39:913][492]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_Main.Main:PersistentLevel.BP_MyCube_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.58.40:021][505]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_Main.Main:PersistentLevel.BP_MyCube_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.58.40:096][514]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_Main.Main:PersistentLevel.BP_MyCube_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.58.40:155][521]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_Main.Main:PersistentLevel.BP_MyCube_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.58.40:197][526]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_Main.Main:PersistentLevel.BP_MyCube_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.58.40:505][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.58.40:523][563]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.20-10.58.40:553][563]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.20-10.58.40:554][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.58.40:554][563]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Main
+[2020.05.20-10.58.40:554][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.58.40:555][563]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.58.40:555][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.58.40:565][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.20-10.58.40:568][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.58.40:584][563]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.58.40:621][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.58.40:629][563]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023183E17B00), frame # 12563
+[2020.05.20-10.58.40:629][563]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023183E1BE00), frame # 12563
+[2020.05.20-10.58.40:654][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.05.20-10.58.40:677][564]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.05.20-10.58.43:497][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Main" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.20-10.58.43:510][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.05.20-10.58.43:524][890]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/Main745D9952438130F1B69EFCBC84080E3F.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/Main.umap'
+[2020.05.20-10.58.43:562][890]AssetCheck: New page: Asset Save: Main
+[2020.05.20-10.58.43:562][890]LogContentValidation: Display: Validating World /Game/Main.Main
+[2020.05.20-10.58.44:413][986]LogAssetEditorSubsystem: Opening Asset editor for World /Game/SpawnCubeCPP.SpawnCubeCPP
+[2020.05.20-10.58.44:425][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.05.20-10.58.45:893][986]LogSlate: Window 'Save Content' being destroyed
+[2020.05.20-10.58.45:907][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGameMode" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/MyGameMode.uasset" SILENT=true
+[2020.05.20-10.58.45:917][986]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/MyGameMode072D1A8A46CC0BFC4F5B47BA7117785F.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/MyGameMode.uasset'
+[2020.05.20-10.58.45:918][986]Cmd: MAP LOAD FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.20-10.58.45:918][986]LightingResults: New page: Lighting Build
+[2020.05.20-10.58.45:919][986]LoadErrors: New page: Loading map: SpawnCubeCPP.umap
+[2020.05.20-10.58.45:919][986]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.58.45:919][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.58.45:919][986]MapCheck: New page: Map Check
+[2020.05.20-10.58.45:919][986]LightingResults: New page: Lighting Build
+[2020.05.20-10.58.45:931][986]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023158B3BB00), frame # 12986
+[2020.05.20-10.58.45:932][986]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023113269800), frame # 12986
+[2020.05.20-10.58.45:933][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.05.20-10.58.45:936][986]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.20-10.58.45:936][986]LogAIModule: Creating AISystem for world SpawnCubeCPP
+[2020.05.20-10.58.45:936][986]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002315EC0D400), frame # 12986
+[2020.05.20-10.58.45:937][986]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002314D9CFD80), frame # 12986
+[2020.05.20-10.58.45:952][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.05.20-10.58.45:975][986]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.20-10.58.45:975][986]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,101ms to complete.
+[2020.05.20-10.58.45:975][986]LogFileHelpers: Loading map 'SpawnCubeCPP' took 0.057
+[2020.05.20-10.58.46:020][986]AssetCheck: New page: Asset Save: MyGameMode
+[2020.05.20-10.58.46:020][986]LogContentValidation: Display: Validating Blueprint /Game/MyGameMode.MyGameMode
+[2020.05.20-10.58.49:800][435]Cmd: DELETE
+[2020.05.20-10.58.49:800][435]Cmd: ACTOR DELETE
+[2020.05.20-10.58.49:803][435]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2020.05.20-10.58.49:819][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.05.20-10.58.49:821][435]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2020.05.20-10.59.01:813][774]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.20-10.59.01:817][774]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.20-10.59.02:221][820]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.05.20-10.59.02:432][844]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.05.20-10.59.07:561][425]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.20-10.59.07:573][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.20-10.59.07:574][425]PIE: New page: PIE session: SpawnCubeCPP (20 мая 2020 г., 16:59:07)
+[2020.05.20-10.59.07:574][425]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_SpawnCubeCPP
+[2020.05.20-10.59.07:576][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001669s)
+[2020.05.20-10.59.07:576][425]LogAIModule: Creating AISystem for world SpawnCubeCPP
+[2020.05.20-10.59.07:576][425]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023195BBE400), frame # 15425
+[2020.05.20-10.59.07:576][425]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000023191416D40), frame # 15425
+[2020.05.20-10.59.07:577][425]LogPlayLevel: PIE: World Init took: (0.001752s)
+[2020.05.20-10.59.07:577][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SpawnCubeCPP.SpawnCubeCPP to /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP (0.003879s)
+[2020.05.20-10.59.07:593][425]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.05.20-10.59.07:597][425]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-10.59.07:597][425]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-10.59.07:597][425]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-10.59.07:597][425]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-10.59.07:597][425]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-10.59.07:597][425]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-10.59.07:597][425]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-10.59.07:597][425]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-10.59.07:598][425]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-10.59.07:598][425]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-10.59.07:601][425]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-10.59.07:601][425]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-10.59.07:627][425]LogAudioMixer: Display: Using Audio Device Динамики (USB Audio Device)
+[2020.05.20-10.59.07:627][425]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.05.20-10.59.07:627][425]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.05.20-10.59.07:627][425]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.05.20-10.59.07:628][425]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.05.20-10.59.07:641][425]LogInit: FAudioDevice initialized.
+[2020.05.20-10.59.07:653][425]LogLoad: Game class is 'MyGameMode_C'
+[2020.05.20-10.59.07:654][425]LogWorld: Bringing World /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP up for play (max tick rate 0) at 2020.05.20-13.59.07
+[2020.05.20-10.59.07:654][425]LogWorld: Bringing up level for play took: 0.000621
+[2020.05.20-10.59.07:654][425]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.05.20-10.59.07:658][425]PIE: Server logged in
+[2020.05.20-10.59.07:659][425]PIE: Play in editor total start time 0,087 seconds.
+[2020.05.20-10.59.07:994][462]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP:PersistentLevel.BP_MyCube_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.59.08:326][502]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP:PersistentLevel.BP_MyCube_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.59.08:359][506]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP:PersistentLevel.BP_MyCube_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.59.08:435][515]LogActor: Warning: BP_MyCube_C /Game/UEDPIE_0_SpawnCubeCPP.SpawnCubeCPP:PersistentLevel.BP_MyCube_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.05.20-10.59.08:844][564]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.59.08:853][564]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.20-10.59.08:873][564]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.20-10.59.08:874][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.59.08:875][564]LogWorld: BeginTearingDown for /Game/UEDPIE_0_SpawnCubeCPP
+[2020.05.20-10.59.08:875][564]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.59.08:875][564]LogWorld: UWorld::CleanupWorld for SpawnCubeCPP, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.59.08:875][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.59.08:887][564]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.20-10.59.08:889][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.59.08:902][564]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.20-10.59.08:937][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-10.59.08:938][564]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000023191416D40), frame # 15564
+[2020.05.20-10.59.08:938][564]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000023195BBE400), frame # 15564
+[2020.05.20-10.59.08:940][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.05.20-10.59.08:964][565]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.05.20-10.59.09:647][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpawnCubeCPP" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.20-10.59.09:662][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.05.20-10.59.09:675][643]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/SpawnCubeCPP676BDE0A489E81F91DD7CF8FCB92423F.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP.umap'
+[2020.05.20-10.59.09:699][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpawnCubeCPP_BuiltData" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP_BuiltData.uasset" SILENT=true
+[2020.05.20-10.59.09:704][643]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/SpawnCubeCPP_BuiltDataA77A90114874402917FB70A50D1D29CF.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP_BuiltData.uasset'
+[2020.05.20-10.59.09:715][643]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-10.59.09:716][643]LogContentValidation: Display: Validating World /Game/SpawnCubeCPP.SpawnCubeCPP
+[2020.05.20-10.59.09:716][643]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SpawnCubeCPP_BuiltData.SpawnCubeCPP_BuiltData
+[2020.05.20-10.59.12:211][931]Candidate modules for hot reload:
+[2020.05.20-10.59.12:211][931]  SpawnCubeCPP
+[2020.05.20-10.59.12:211][931]Launching UnrealBuildTool... [D:/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpawnCubeCPP,264 SpawnCubeCPPEditor Win64 Development -Project="D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject" "D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject"  -IgnoreJunk]
+[2020.05.20-10.59.12:213][931]Warning: Starting HotReload took  0.0s.
+[2020.05.20-10.59.14:187][122]CompilerResultsLog: New page: Compilation - 20 мая 2020 г., 16:59:14
+[2020.05.20-10.59.14:187][122]CompilerResultsLog: Building SpawnCubeCPPEditor...
+[2020.05.20-10.59.14:187][122]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-10.59.14:187][122]CompilerResultsLog: Distributing 3 actions to XGE
+[2020.05.20-10.59.14:187][122]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.05.20-10.59.14:187][122]CompilerResultsLog: License is invalid:
+[2020.05.20-10.59.14:187][122]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.05.20-10.59.14:188][122]CompilerResultsLog:     This build will run in standalone mode.
+[2020.05.20-10.59.14:188][122]CompilerResultsLog: 
+[2020.05.20-10.59.14:188][122]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.05.20-10.59.14:188][122]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.05.20-10.59.14:188][122]CompilerResultsLog: UE4Editor-SpawnCubeCPP-0264.dll (0:00.76 at +0:00)
+[2020.05.20-10.59.14:188][122]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-0264.suppressed.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-0264.suppressed.exp
+[2020.05.20-10.59.14:188][122]CompilerResultsLog: UE4Editor-SpawnCubeCPP-0264.lib (0:00.14 at +0:00)
+[2020.05.20-10.59.14:188][122]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-0264.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-0264.exp
+[2020.05.20-10.59.14:188][122]CompilerResultsLog: SpawnCubeCPPEditor.target (0:00.18 at +0:00)
+[2020.05.20-10.59.14:188][122]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.05.20-10.59.14:188][122]CompilerResultsLog: 
+[2020.05.20-10.59.14:188][122]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.05.20-10.59.14:188][122]CompilerResultsLog: 
+[2020.05.20-10.59.14:188][122]CompilerResultsLog: 1 build system warning(s):
+[2020.05.20-10.59.14:189][122]CompilerResultsLog:    - License is invalid
+[2020.05.20-10.59.14:189][122]CompilerResultsLog: 
+[2020.05.20-10.59.14:189][122]CompilerResultsLog: Total time in XGE executor: 1,32 seconds
+[2020.05.20-10.59.14:189][122]CompilerResultsLog: Total execution time: 1,89 seconds
+[2020.05.20-10.59.14:189][122]LogMainFrame: MainFrame: Module compiling took 1.981 seconds
+[2020.05.20-10.59.14:199][122]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 3429 classes and 822 folders.
+[2020.05.20-10.59.14:207][122]Display: HotReload took  2.0s.
+[2020.05.20-10.59.17:398][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpawnCubeCPP" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.20-10.59.17:445][467]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.05.20-10.59.17:458][467]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/SpawnCubeCPP0F86790F4EE28B2AECA516A46E162989.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP.umap'
+[2020.05.20-10.59.17:482][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SpawnCubeCPP_BuiltData" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP_BuiltData.uasset" SILENT=true
+[2020.05.20-10.59.17:488][467]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/SpawnCubeCPP_BuiltDataD4B0F27F448432483F12F3A7A7F9489A.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/SpawnCubeCPP_BuiltData.uasset'
+[2020.05.20-10.59.17:501][467]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-10.59.17:501][467]LogContentValidation: Display: Validating World /Game/SpawnCubeCPP.SpawnCubeCPP
+[2020.05.20-10.59.17:501][467]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/SpawnCubeCPP_BuiltData.SpawnCubeCPP_BuiltData
+[2020.05.20-10.59.31:396][ 97]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Shooting.Shooting
+[2020.05.20-10.59.31:430][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2020.05.20-10.59.32:788][ 97]LogSlate: Window 'Save Content' being destroyed
+[2020.05.20-10.59.32:808][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shooting" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/Shooting.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.20-10.59.32:821][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.05.20-10.59.32:828][ 97]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/Shooting94BF04C248BBF140973CFFB293892E4B.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/Shooting.umap'
+[2020.05.20-10.59.32:829][ 97]LogFileHelpers: Saving map 'Shooting' took 0.022
+[2020.05.20-10.59.32:830][ 97]Cmd: MAP LOAD FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/Shooting.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.20-10.59.32:830][ 97]LightingResults: New page: Lighting Build
+[2020.05.20-10.59.32:830][ 97]LoadErrors: New page: Loading map: Shooting.umap
+[2020.05.20-10.59.32:831][ 97]LogWorld: UWorld::CleanupWorld for SpawnCubeCPP, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-10.59.32:831][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-10.59.32:831][ 97]MapCheck: New page: Map Check
+[2020.05.20-10.59.32:831][ 97]LightingResults: New page: Lighting Build
+[2020.05.20-10.59.32:844][ 97]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002314D9CFD80), frame # 18097
+[2020.05.20-10.59.32:844][ 97]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002315EC0D400), frame # 18097
+[2020.05.20-10.59.32:846][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.05.20-10.59.32:847][ 97]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.20-10.59.32:848][ 97]LogAIModule: Creating AISystem for world Shooting
+[2020.05.20-10.59.32:848][ 97]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000023177D5DA00), frame # 18097
+[2020.05.20-10.59.32:848][ 97]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000231870D0B80), frame # 18097
+[2020.05.20-10.59.32:863][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.05.20-10.59.32:885][ 97]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.20-10.59.32:885][ 97]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,071ms to complete.
+[2020.05.20-10.59.32:885][ 97]LogFileHelpers: Loading map 'Shooting' took 0.055
+[2020.05.20-10.59.32:924][ 97]AssetCheck: New page: Asset Save: Shooting
+[2020.05.20-10.59.32:925][ 97]LogContentValidation: Display: Validating World /Game/Shooting.Shooting
+[2020.05.20-11.00.11:214][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shooting" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/Shooting.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.20-11.00.11:230][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.05.20-11.00.11:244][367]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/ShootingED4F9C97410DCF1F657475B8F55DCE7A.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/Shooting.umap'
+[2020.05.20-11.00.11:275][367]AssetCheck: New page: Asset Save: Shooting
+[2020.05.20-11.00.11:276][367]LogContentValidation: Display: Validating World /Game/Shooting.Shooting
+[2020.05.20-11.00.11:957][449]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.05.20-11.00.32:571][828]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.05.20-11.00.34:726][ 75]Cmd: DELETE
+[2020.05.20-11.00.34:726][ 75]Cmd: ACTOR DELETE
+[2020.05.20-11.00.34:727][ 75]LogEditorActor: Deleted Actor: Brush
+[2020.05.20-11.00.34:755][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.05.20-11.00.34:760][ 75]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2020.05.20-11.00.40:178][709]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2020.05.20-11.00.53:918][327]Cmd: TRANSACTION UNDO
+[2020.05.20-11.00.53:918][327]LogEditorTransaction: Undo Scale Actors
+[2020.05.20-11.01.31:279][604]LogSlate: Took 0.003687 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.05.20-11.01.38:383][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shooting" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/Shooting.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.20-11.01.38:399][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.05.20-11.01.38:416][424]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/Shooting323AEE574A6CFCB6CB362FA8F79219ED.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/Shooting.umap'
+[2020.05.20-11.01.38:450][424]AssetCheck: New page: Asset Save: Shooting
+[2020.05.20-11.01.38:450][424]LogContentValidation: Display: Validating World /Game/Shooting.Shooting
+[2020.05.20-11.01.39:572][552]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.05.20-11.01.56:525][484]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.05.20-11.01.57:266][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shooting" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/Shooting.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.05.20-11.01.57:282][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.05.20-11.01.57:297][564]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/Shooting06B0E8FD49A7C7B9B19DF7BAEC2FAB6F.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/Shooting.umap'
+[2020.05.20-11.01.57:329][564]AssetCheck: New page: Asset Save: Shooting
+[2020.05.20-11.01.57:330][564]LogContentValidation: Display: Validating World /Game/Shooting.Shooting
+[2020.05.20-11.02.28:609][301]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.05.20-11.02.47:134][417]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ShootingCharacter.BP_ShootingCharacter
+[2020.05.20-11.02.47:566][418]LogRenderer: Reallocating scene render targets to support 1208x644 Format 10 NumSamples 1 (Frame:1).
+[2020.05.20-11.03.10:641][891]LogSlate: Window 'BP_ShootingCharacter' being destroyed
+[2020.05.20-11.03.10:647][891]LogSlate: Window 'BP_ShootingCharacter' being destroyed
+[2020.05.20-11.03.10:667][891]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-11.03.10:667][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-11.03.12:465][ 90]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ShootingCharacter.BP_ShootingCharacter
+[2020.05.20-11.03.14:555][292]LogSlate: Window 'BP_ShootingCharacter' being destroyed
+[2020.05.20-11.03.14:572][292]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-11.03.14:572][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-11.03.14:613][292]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_ShootingCharacter.BP_ShootingCharacter
+[2020.05.20-11.03.14:942][292]LogSlate: Took 0.004448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.20-11.03.26:307][571]BlueprintLog: New page: Compile BP_ShootingCharacter
+[2020.05.20-11.03.26:404][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.05.20-11.03.44:837][648]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.05.20-11.04.11:688][494]BlueprintLog: New page: Compile BP_ShootingCharacter
+[2020.05.20-11.04.11:780][494]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.05.20-11.04.12:201][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_ShootingCharacter" FILE="../../../../Unreal Projects/SpawnCubeCPP/Content/BP_ShootingCharacter.uasset" SILENT=true
+[2020.05.20-11.04.12:214][537]LogSavePackage: Moving '../../../../Unreal Projects/SpawnCubeCPP/Saved/BP_ShootingCharacter5447D47C44D71350910E65820CCDCDB1.tmp' to '../../../../Unreal Projects/SpawnCubeCPP/Content/BP_ShootingCharacter.uasset'
+[2020.05.20-11.04.12:226][537]AssetCheck: New page: Asset Save: BP_ShootingCharacter
+[2020.05.20-11.04.12:226][537]LogContentValidation: Display: Validating Blueprint /Game/BP_ShootingCharacter.BP_ShootingCharacter
+[2020.05.20-11.05.04:019][356]BlueprintLog: New page: Compile BP_ShootingCharacter
+[2020.05.20-11.05.04:099][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.05.20-11.05.06:615][634]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.05.20-11.05.09:229][935]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2020.05.20-11.06.16:631][209]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.20-11.06.16:637][209]LogSlate: Window 'Project Settings' being destroyed
+[2020.05.20-11.06.38:667][686]BlueprintLog: New page: Compile BP_ShootingCharacter
+[2020.05.20-11.06.38:708][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.05.20-11.06.54:342][460]Candidate modules for hot reload:
+[2020.05.20-11.06.54:342][460]  SpawnCubeCPP
+[2020.05.20-11.06.54:343][460]Launching UnrealBuildTool... [D:/Unreal Engine/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=SpawnCubeCPP,9604 SpawnCubeCPPEditor Win64 Development -Project="D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject" "D:/Unreal Engine/Unreal Projects/SpawnCubeCPP/SpawnCubeCPP.uproject"  -IgnoreJunk]
+[2020.05.20-11.06.54:345][460]Warning: Starting HotReload took  0.0s.
+[2020.05.20-11.06.56:336][650]CompilerResultsLog: New page: Compilation - 20 мая 2020 г., 17:06:56
+[2020.05.20-11.06.56:336][650]CompilerResultsLog: Building SpawnCubeCPPEditor...
+[2020.05.20-11.06.56:336][650]CompilerResultsLog: Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.20-11.06.56:336][650]CompilerResultsLog: Distributing 3 actions to XGE
+[2020.05.20-11.06.56:336][650]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2020.05.20-11.06.56:336][650]CompilerResultsLog: License is invalid:
+[2020.05.20-11.06.56:336][650]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2020.05.20-11.06.56:336][650]CompilerResultsLog:     This build will run in standalone mode.
+[2020.05.20-11.06.56:336][650]CompilerResultsLog: 
+[2020.05.20-11.06.56:336][650]CompilerResultsLog: -------------------------------------------------------------------------------
+[2020.05.20-11.06.56:337][650]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2020.05.20-11.06.56:337][650]CompilerResultsLog: UE4Editor-SpawnCubeCPP-9604.dll (0:00.75 at +0:00)
+[2020.05.20-11.06.56:337][650]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-9604.suppressed.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-9604.suppressed.exp
+[2020.05.20-11.06.56:337][650]CompilerResultsLog: UE4Editor-SpawnCubeCPP-9604.lib (0:00.14 at +0:00)
+[2020.05.20-11.06.56:337][650]CompilerResultsLog:    ????????? ??????⥪? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-9604.lib ? ??ꥪ? D:\Unreal Engine\Unreal Projects\SpawnCubeCPP\Intermediate\Build\Win64\UE4Editor\Development\SpawnCubeCPP\UE4Editor-SpawnCubeCPP-9604.exp
+[2020.05.20-11.06.56:337][650]CompilerResultsLog: SpawnCubeCPPEditor.target (0:00.18 at +0:00)
+[2020.05.20-11.06.56:337][650]CompilerResultsLog: ---------------------- Done ----------------------
+[2020.05.20-11.06.56:337][650]CompilerResultsLog: 
+[2020.05.20-11.06.56:337][650]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2020.05.20-11.06.56:337][650]CompilerResultsLog: 
+[2020.05.20-11.06.56:337][650]CompilerResultsLog: 1 build system warning(s):
+[2020.05.20-11.06.56:337][650]CompilerResultsLog:    - License is invalid
+[2020.05.20-11.06.56:337][650]CompilerResultsLog: 
+[2020.05.20-11.06.56:338][650]CompilerResultsLog: Total time in XGE executor: 1,22 seconds
+[2020.05.20-11.06.56:338][650]CompilerResultsLog: Total execution time: 1,90 seconds
+[2020.05.20-11.06.56:338][650]LogMainFrame: MainFrame: Module compiling took 2.000 seconds
+[2020.05.20-11.06.56:371][650]LogContentBrowser: Native class hierarchy updated for 'SpawnCubeCPP' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2020.05.20-11.06.56:374][650]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.05.20-11.06.56:435][650]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3429 classes and 822 folders.
+[2020.05.20-11.06.56:442][650]Display: HotReload took  2.1s.
+[2020.05.20-11.07.05:085][813]LogHttp: Warning: 0000023172944800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD7B7CAFE-4B51-79D2-DC7C-5F8202AAEDE0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=b10021874b417cd141f1f9a958738d3e%7C6fbfde79295e4860ae5ca9d7c88a2a04%7Cc47cb075-3650-4030-a101-0246dfb81971&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.05.20-11.07.05:085][813]LogHttp: Warning: 0000023172944800: request failed, libcurl error: 0 (No error)
+[2020.05.20-11.07.05:085][813]LogHttp: Warning: 0000023172944800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2314a243f70 [can pipeline])
+[2020.05.20-11.07.05:086][813]LogHttp: Warning: 0000023172944800: libcurl info message cache 1 (Re-using existing connection! (#7) with host datarouter.ol.epicgames.com)
+[2020.05.20-11.07.05:086][813]LogHttp: Warning: 0000023172944800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.202.247.179) port 443 (#7))
+[2020.05.20-11.07.05:086][813]LogHttp: Warning: 0000023172944800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.05.20-11.07.05:086][813]LogHttp: Warning: 0000023172944800: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2020.05.20-11.07.05:086][813]LogHttp: Warning: 0000023172944800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.05.20-11.07.05:086][813]LogHttp: Warning: 0000023172944800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.05.20-11.07.05:086][813]LogHttp: Warning: 0000023172944800: libcurl info message cache 7 (Closing connection 7)
+[2020.05.20-11.07.05:086][813]LogHttp: Warning: 0000023172944800: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.05.20-11.07.05:424][814]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD7B7CAFE-4B51-79D2-DC7C-5F8202AAEDE0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=b10021874b417cd141f1f9a958738d3e%7C6fbfde79295e4860ae5ca9d7c88a2a04%7Cc47cb075-3650-4030-a101-0246dfb81971&AppEnvironment=datacollector-source&UploadType=eteventstream
